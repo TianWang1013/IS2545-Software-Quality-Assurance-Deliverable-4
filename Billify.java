@@ -4,14 +4,14 @@ package test;
 
 public class Billify {
 
-	public static void main(String[] args){
-		int[] x = {1,1,1};
-		Billify billify = new Billify();
-		int[] y = billify.generateBillify(x);
-		for(int value:y){
-			System.out.println(value);
-		}
-	}
+	// public static void main(String[] args){
+	// 	int[] x = {1,1,1};
+	// 	Billify billify = new Billify();
+	// 	int[] y = billify.generateBillify(x);
+	// 	for(int value:y){
+	// 		System.out.println(value);
+	// 	}
+	// }
 
 	public int[] generateBillify(int[] x) {	
 		int sum = 0;
