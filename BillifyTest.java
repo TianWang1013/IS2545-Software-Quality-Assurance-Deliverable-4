@@ -1,4 +1,4 @@
-// package test;
+package test;
 
 import static org.junit.Assert.*;
 import java.util.Random;
@@ -20,10 +20,10 @@ public class BillifyTest {
 //	 generate an array with random size from 1 to 100 (include 1 and 100)
 //	 values with integers from 1 - 100 only (include 1 and 100)
 	private int[] generateArray() {
-		int len = random.nextInt(3) + 1;
+		int len = random.nextInt(100) + 1;
 		int[] array = new int[len];
 		for(int i = 0; i < array.length; i++) {
-			array[i] = random.nextInt(1) + 1;
+			array[i] = random.nextInt(100) + 1;
 		}		
 		return array;
 	}
